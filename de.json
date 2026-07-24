@@ -10,7 +10,7 @@
         "panel.message.description": "Hier kannst du die Willkommensnachricht ändern.",
         "panel.test.description": "Teste ob die Willkommensnachricht korrekt funktioniert.",
         "panel.reset.description": "Hier kannst du **ALLE** Einstellungen des Systems zurücksetzen.",
-        "panel.select.role.placeholder": "Wähle die Rolle aus, die beim Beitritt eines neuen Mitglieds markiert werden soll.",
+        "panel.select.role.placeholder": "Setze ",
         "panel.select.channel.placeholder": "Wähle den Kanal aus, in dem die Willkommensnachricht gesendet werden soll."
     },
     "general": {
@@ -26,6 +26,8 @@
         "channel": "Kanal",
         "mention": "Erwähnung",
         "user": "Benutzer",
-        "set": "Setzen"
+        "set": "Setzen",
+        "not.your.button": "Du kannst diesen Button **nicht** benutzen, da er nicht für dich ist.",
+        "not.your.select": "Du kannst dieses Auswahlmenü **nicht** benutzen, da es nicht für dich ist."
     }
 }

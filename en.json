@@ -26,6 +26,8 @@
         "channel": "Channel",
         "mention": "Mention",
         "user": "User",
-        "set": "Set"
+        "set": "Set",
+        "not.your.button": "You cannot use this button, as it is **not** for you.",
+        "not.your.select": "You cannot use this select menu, as it is **not** for you."
     }
 }
