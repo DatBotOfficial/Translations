@@ -31,9 +31,9 @@
         "not.your.select": "Du kannst dieses Auswahlmenü **nicht** benutzen, da es nicht für dich ist."
     },
     "permissions": {
-        "channel.single": "Dir fehlt die Berechtigung {{permission}} in {{channel}}.",
-        "channel.multiple": "Dir fehlen die Berechtigungen {{permissions}} in {{channel}}.",
-        "single": "Dir fehlt die Berechtigung {{permission}}.",
-        "multiple": "Dir fehlen die Berechtigungen {{permissions}}."
+        "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",
+        "channel.multiple": "Dir fehlen die Berechtigungen **{{permissions}}** in {{channel}}.",
+        "single": "Dir fehlt die Berechtigung **{{permission}}**.",
+        "multiple": "Dir fehlen die Berechtigungen **{{permissions}}**."
     }
 }
