@@ -1,6 +1,18 @@
 {
-    "test.command.reply": "Das ist eine Testantwort.",
-    "locale.set.self": "Du hast deine Sprache auf **Deutsch** gesetzt.",
-    "locale.set.guild.english": "Du hast die Sprache für diesen Server auf **Englisch** gesetzt.",
-    "locale.set.guild.german": "Du hast die Sprache für diesen Server auf **Deutsch** gesetzt."
+    "locale": {
+        "set.guild.english": "Du hast die Sprache für diesen Server auf **Englisch** gesetzt.",
+        "set.guild.german": "Du hast die Sprache für diesen Server auf **Deutsch** gesetzt.",
+        "set.self": "Du hast deine Sprache auf **Deutsch** gesetzt."
+    },
+    "welcome": {
+        "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Willkommensystem deaktiviert ist. Ansonsten ist es aktiviert."
+    },
+    "general": {
+        "yes": "Ja",
+        "no": "Nein",
+        "manage": "Verwalten",
+        "toggle": "Umschalten",
+        "on": "Ein",
+        "off": "Aus"
+    }
 }
