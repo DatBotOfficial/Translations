@@ -1,3 +1,4 @@
 {
-    "test.command.reply": "Das ist eine Testantwort."
+    "test.command.reply": "Das ist eine Testantwort.",
+    "locale.set": "Du hast deine Sprache auf Deutsch gesetzt."
 }
