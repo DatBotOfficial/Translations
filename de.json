@@ -1,4 +1,6 @@
 {
     "test.command.reply": "Das ist eine Testantwort.",
-    "locale.set": "Du hast die Sprache auf **Deutsch** gesetzt."
+    "locale.set.self": "Du hast deine Sprache auf **Deutsch** gesetzt.",
+    "locale.set.guild.english": "Du hast die Sprache für diesen Server auf **Englisch** gesetzt.",
+    "locale.set.guild.german": "Du hast die Sprache für diesen Server auf **Deutsch** gesetzt."
 }

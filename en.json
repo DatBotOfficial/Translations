@@ -1,4 +1,6 @@
 {
     "test.command.reply": "This is a test command reply.",
-    "locale.set": "You've set the locale to **english**."
+    "locale.set.self": "You've set your locale to **english**.",
+    "locale.set.guild.english": "You've set the locale for this server to **english**.",
+    "locale.set.guild.german": "You've set the locale for this server to **german**."
 }
