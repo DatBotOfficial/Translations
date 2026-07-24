@@ -6,7 +6,12 @@
     },
     "welcome": {
         "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Willkommensystem deaktiviert ist. Ansonsten ist es aktiviert.",
-        "panel.title.description": "Du kannst die Einstellungen des Willkommenssystems hier ändern."
+        "panel.title.description": "Du kannst die Einstellungen des Willkommenssystems hier ändern.",
+        "panel.message.description": "Hier kannst du die Willkommensnachricht ändern.",
+        "panel.test.description": "Teste ob die Willkommensnachricht korrekt funktioniert.",
+        "panel.reset.description": "Hier kannst du **ALLE** Einstellungen des Systems zurücksetzen.",
+        "panel.select.role.placeholder": "Wähle die Rolle aus, die beim Beitritt eines neuen Mitglieds markiert werden soll.",
+        "panel.select.channel.placeholder": "Wähle den Kanal aus, in dem die Willkommensnachricht gesendet werden soll."
     },
     "general": {
         "yes": "Ja",
@@ -14,6 +19,12 @@
         "manage": "Verwalten",
         "toggle": "Umschalten",
         "on": "Ein",
-        "off": "Aus"
+        "off": "Aus",
+        "message": "Nachricht",
+        "test": "Testen",
+        "reset": "Zurücksetzen",
+        "channel": "Kanal",
+        "mention": "Erwähnung",
+        "user": "Benutzer"
     }
 }

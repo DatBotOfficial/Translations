@@ -6,7 +6,12 @@
     },
     "welcome": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
-        "panel.title.description": "You can manage the Welcome System's settings right here."
+        "panel.title.description": "You can manage the Welcome System's settings right here.",
+        "panel.message.description": "Here you can change the welcome message.",
+        "panel.test.description": "Test if the welcome message is working properly.",
+        "panel.reset.description": "Here you can reset **ALL** settings of the Welcome System.",
+        "panel.select.role.placeholder": "Select the role that should be mentioned in the welcome message.",
+        "panel.select.channel.placeholder": "Select the channel where the welcome message should be sent."
     },
     "general": {
         "yes": "Yes",
@@ -14,6 +19,12 @@
         "manage": "Manage",
         "toggle": "Toggle",
         "on": "On",
-        "off": "Fff"
+        "off": "Off",
+        "message": "Message",
+        "test": "Test",
+        "reset": "Reset",
+        "channel": "Channel",
+        "mention": "Mention",
+        "user": "User"
     }
 }
