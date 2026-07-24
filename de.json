@@ -25,6 +25,7 @@
         "reset": "Zurücksetzen",
         "channel": "Kanal",
         "mention": "Erwähnung",
-        "user": "Benutzer"
+        "user": "Benutzer",
+        "set": "Setzen"
     }
 }

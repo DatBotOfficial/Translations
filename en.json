@@ -25,6 +25,7 @@
         "reset": "Reset",
         "channel": "Channel",
         "mention": "Mention",
-        "user": "User"
+        "user": "User",
+        "set": "Set"
     }
 }
