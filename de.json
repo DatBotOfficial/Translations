@@ -5,7 +5,8 @@
         "set.self": "Du hast deine Sprache auf **Deutsch** gesetzt."
     },
     "welcome": {
-        "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Willkommensystem deaktiviert ist. Ansonsten ist es aktiviert."
+        "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Willkommensystem deaktiviert ist. Ansonsten ist es aktiviert.",
+        "panel.title.description": "Du kannst die Einstellungen des Willkommenssystems hier ändern."
     },
     "general": {
         "yes": "Ja",

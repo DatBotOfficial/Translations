@@ -5,7 +5,8 @@
         "set.self": "You have set your language to **English**."
     },
     "welcome": {
-        "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled."
+        "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
+        "panel.title.description": "You can manage the Welcome System's settings right here."
     },
     "general": {
         "yes": "Yes",
