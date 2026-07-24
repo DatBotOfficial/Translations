@@ -1,4 +1,4 @@
 {
     "test.command.reply": "This is a test command reply.",
-    "locale.set": "You've set your locale to **english**."
+    "locale.set": "You've set the locale to **english**."
 }
