@@ -29,5 +29,11 @@
         "set": "Set",
         "not.your.button": "You cannot use this button, as it is **not** for you.",
         "not.your.select": "You cannot use this select menu, as it is **not** for you."
+    },
+    "permissions": {
+        "channel.single": "You do not have the permission **{{permission}}** in {{channel}}.",
+        "channel.multiple": "You do not have the permissions **{{permissions}}** in {{channel}}.",
+        "single": "You do not have the permission **{{permission}}**.",
+        "multiple": "You do not have the permissions **{{permissions}}**."
     }
 }
