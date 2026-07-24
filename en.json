@@ -10,8 +10,8 @@
         "panel.message.description": "Here you can change the welcome message.",
         "panel.test.description": "Test if the welcome message is working properly.",
         "panel.reset.description": "Here you can reset **ALL** settings of the Welcome System.",
-        "panel.select.role.placeholder": "Select the role that should be mentioned in the welcome message.",
-        "panel.select.channel.placeholder": "Select the channel where the welcome message should be sent."
+        "panel.select.role.placeholder": "Set the role that should get mentioned",
+        "panel.select.channel.placeholder": "Set the channel for the message"
     },
     "general": {
         "yes": "Yes",
