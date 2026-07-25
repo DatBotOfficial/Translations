@@ -18,7 +18,9 @@
         "modal.set_message.description": "Hier kannst du die Willkommensnachricht festlegen. Du kannst die folgenden Platzhalter verwenden:\n\n- `{{user}}` – Erwähnt den Benutzer\n- `{{user.name}}` – Der Name des Benutzers\n- `{{user.id}}` - Die ID des Benutzers\n- `{{guild.name}}` - Der Name des Servers\n- `{{guild.memberCount}}` - Die Mitgliederzahl des Servers",
         "modal.set_message.success": "Du hast die Willkommensnachricht auf folgendes gesetzt:\n\n{{message}}",
         "button.test.success": "Die Willkommensnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
-        "button.reset.success": "Du hast **ALLE** Einstellungen des Willkommenssystems zurückgesetzt."
+        "button.reset.success": "Du hast **ALLE** Einstellungen des Willkommenssystems zurückgesetzt.",
+        "select.mention.remove": "You have removed the mention in the welcome message.",
+        "select.user.set": "The joining user will now be mentioned in the welcome message."
     },
     "general": {
         "yes": "Ja",
