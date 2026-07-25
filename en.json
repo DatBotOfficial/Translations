@@ -14,7 +14,8 @@
         "panel.select.channel.placeholder": "Set the channel for the message",
         "toggle.no_channel": "You have to set the channel for the welcome message first.",
         "select.channel.set": "You have set the channel for the welcome message to {{channel}}.",
-        "select.role.set": "You have set the role that should get mentioned in the welcome message to {{role}}."
+        "select.role.set": "You have set the role that should get mentioned in the welcome message to {{role}}.",
+        "welcome.modal.set_message.description": "You can set the welcome message here. You can use the following placeholders:\n\n- `{{user}}` - Mentions the user\n- `{{user.name}}` - The name of the user\n- `{{user.tag}}` - The tag of the user\n- `{{user.id}}` - The ID of the user\n- `{{guild.name}}` - The name of the server\n- `{{guild.memberCount}}` - The member count of the server"
     },
     "general": {
         "yes": "Yes",
