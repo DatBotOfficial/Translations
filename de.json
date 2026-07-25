@@ -11,7 +11,8 @@
         "panel.test.description": "Teste ob die Willkommensnachricht korrekt funktioniert.",
         "panel.reset.description": "Hier kannst du **ALLE** Einstellungen des Systems zurücksetzen.",
         "panel.select.role.placeholder": "Setze die Rolle die gepingt werden soll",
-        "panel.select.channel.placeholder": "Setze den Kanal für die Nachricht"
+        "panel.select.channel.placeholder": "Setze den Kanal für die Nachricht",
+        "toggle.no_channel": "Du musst zuerst den Kanal für die Willkommensnachricht setzen, bevor du das System aktivieren kannst."
     },
     "general": {
         "yes": "Ja",
