@@ -16,7 +16,9 @@
         "select.channel.set": "Du hast den Kanal für die Willkommensnachricht auf {{channel}} gesetzt.",
         "select.role.set": "Du hast die Rolle, welche markiert werden soll, für die Willkommensnachricht auf {{role}} gesetzt.",
         "modal.set_message.description": "Hier kannst du die Willkommensnachricht festlegen. Du kannst die folgenden Platzhalter verwenden:\n\n- `{{user}}` – Erwähnt den Benutzer\n- `{{user.name}}` – Der Name des Benutzers\n- `{{user.id}}` - Die ID des Benutzers\n- `{{guild.name}}` - Der Name des Servers\n- `{{guild.memberCount}}` - Die Mitgliederzahl des Servers",
-        "modal.set_message.success": "Du hast die Willkommensnachricht auf folgendes gesetzt:\n\n{{message}}"
+        "modal.set_message.success": "Du hast die Willkommensnachricht auf folgendes gesetzt:\n\n{{message}}",
+        "button.test.success": "Die Willkommensnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
+        "button.reset.success": "Du hast **ALLE** Einstellungen des Willkommenssystems zurückgesetzt."
     },
     "general": {
         "yes": "Ja",

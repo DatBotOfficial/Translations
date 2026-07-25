@@ -16,7 +16,9 @@
         "select.channel.set": "You have set the channel for the welcome message to {{channel}}.",
         "select.role.set": "You have set the role that should get mentioned in the welcome message to {{role}}.",
         "modal.set_message.description": "You can set the welcome message here. You can use the following placeholders:\n\n- `{{user}}` - Mentions the user\n- `{{user.name}}` - The name of the user\n- `{{user.id}}` - The ID of the user\n- `{{guild.name}}` - The name of the server\n- `{{guild.memberCount}}` - The member count of the server",
-        "modal.set_message.success": "You have set the welcome message to:\n\n{{message}}"
+        "modal.set_message.success": "You have set the welcome message to:\n\n{{message}}",
+        "button.test.success": "The welcome message has been sent to {{channel}}.",
+        "button.reset.success": "You have reset **ALL** settings of the Welcome System."
     },
     "general": {
         "yes": "Yes",
