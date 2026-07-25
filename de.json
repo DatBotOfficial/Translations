@@ -15,7 +15,7 @@
         "toggle.no_channel": "Du musst zuerst den Kanal für die Willkommensnachricht setzen, bevor du das System aktivieren kannst.",
         "select.channel.set": "Du hast den Kanal für die Willkommensnachricht auf {{channel}} gesetzt.",
         "select.role.set": "Du hast die Rolle, welche markiert werden soll, für die Willkommensnachricht auf {{role}} gesetzt.",
-        "modal.set_message.description": "Hier kannst du die Willkommensnachricht festlegen. Du kannst die folgenden Platzhalter verwenden:\n\n- `{{user}}` – Erwähnt den Benutzer\n- `{{user.name}}` – Der Name des Benutzers\n- `{{user.tag}}` - Das Tag des Benutzers\n- `{{user.id}}` - Die ID des Benutzers\n- `{{guild.name}}` - Der Name des Servers\n- `{{guild.memberCount}}` - Die Mitgliederzahl des Servers",
+        "modal.set_message.description": "Hier kannst du die Willkommensnachricht festlegen. Du kannst die folgenden Platzhalter verwenden:\n\n- `{{user}}` – Erwähnt den Benutzer\n- `{{user.name}}` – Der Name des Benutzers\n- `{{user.id}}` - Die ID des Benutzers\n- `{{guild.name}}` - Der Name des Servers\n- `{{guild.memberCount}}` - Die Mitgliederzahl des Servers",
         "modal.set_message.success": "Du hast die Willkommensnachricht auf folgendes gesetzt:\n\n{{message}}"
     },
     "general": {
