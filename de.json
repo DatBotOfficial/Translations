@@ -12,7 +12,9 @@
         "panel.reset.description": "Hier kannst du **ALLE** Einstellungen des Systems zurücksetzen.",
         "panel.select.role.placeholder": "Setze die Rolle die gepingt werden soll",
         "panel.select.channel.placeholder": "Setze den Kanal für die Nachricht",
-        "toggle.no_channel": "Du musst zuerst den Kanal für die Willkommensnachricht setzen, bevor du das System aktivieren kannst."
+        "toggle.no_channel": "Du musst zuerst den Kanal für die Willkommensnachricht setzen, bevor du das System aktivieren kannst.",
+        "select.channel.set": "Du hast den Kanal für die Willkommensnachricht auf {{channel}} gesetzt.",
+        "select.role.set": "Du hast die Rolle, welche markiert werden soll, für die Willkommensnachricht auf {{role}} gesetzt."
     },
     "general": {
         "yes": "Ja",

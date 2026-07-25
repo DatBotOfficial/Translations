@@ -12,7 +12,9 @@
         "panel.reset.description": "Here you can reset **ALL** settings of the Welcome System.",
         "panel.select.role.placeholder": "Set the role that should get mentioned",
         "panel.select.channel.placeholder": "Set the channel for the message",
-        "toggle.no_channel": "You have to set the channel for the welcome message first."
+        "toggle.no_channel": "You have to set the channel for the welcome message first.",
+        "select.channel.set": "You have set the channel for the welcome message to {{channel}}.",
+        "select.role.set": "You have set the role that should get mentioned in the welcome message to {{role}}."
     },
     "general": {
         "yes": "Yes",
