@@ -66,9 +66,9 @@
         "channel.multiple": "Dir fehlen die Berechtigungen **{{permissions}}** in {{channel}}.",
         "single": "Dir fehlt die Berechtigung **{{permission}}**.",
         "multiple": "Dir fehlen die Berechtigungen **{{permissions}}**.",
-        "bot.single.channel": "Ich habe in {{channel}} nicht die Berechtigung **{{permission}}**.",
-        "bot.multiple.channel": "Ich habe in {{channel}} nicht die Berechtigungen **{{permissions}}**.",
-        "bot.single": "Ich habe keine Berechtigung für **{{permission}}**.",
-        "bot.multiple": "Ich habe keine Berechtigungen für **{{permissions}}**."
+        "bot.single.channel": "Ich habe in {{channel}} die Berechtigung **{{permission}}** nicht.",
+        "bot.multiple.channel": "Ich habe in {{channel}} die Berechtigungen **{{permissions}}** nicht.",
+        "bot.single": "Ich habe die Berechtigung **{{permission}}** nicht.",
+        "bot.multiple": "Ich habe die Berechtigungen **{{permissions}}** nicht."
     }
 }
