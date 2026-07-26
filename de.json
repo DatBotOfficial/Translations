@@ -19,8 +19,25 @@
         "modal.set_message.success": "Du hast die Willkommensnachricht auf folgendes gesetzt:\n\n{{message}}",
         "button.test.success": "Die Willkommensnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
         "button.reset.success": "Du hast **ALLE** Einstellungen des Willkommenssystems zurückgesetzt.",
-        "select.mention.remove": "You have removed the mention in the welcome message.",
-        "select.user.set": "The joining user will now be mentioned in the welcome message."
+        "select.mention.remove": "Du hast die Erwähnung für die Willkommensnachricht entfernt.",
+        "select.user.set": "Du hast die Erwähnung für die Willkommensnachricht so geändert, das nun der Benutzer, der den Server betritt, markiert wird."
+    },
+    "leave": {
+        "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Verlassensystem deaktiviert ist. Ansonsten ist es aktiviert.",
+        "panel.title.description": "Du kannst die Einstellungen des Verlassensystems hier ändern.",
+        "panel.message.description": "Hier kannst du die Verabschiedungsnachricht ändern.",
+        "panel.test.description": "Teste ob die Verabschiedungsnachricht korrekt funktioniert.",
+        "panel.reset.description": "Hier kannst du **ALLE** Einstellungen des Systems zurücksetzen.",
+        "panel.select.role.placeholder": "Setze die Rolle die gepingt werden soll",
+        "panel.select.channel.placeholder": "Setze den Kanal für die Nachricht",
+        "toggle.no_channel": "Du musst zuerst den Kanal für die Verabschiedungsnachricht setzen, bevor du das System aktivieren kannst.",
+        "select.channel.set": "Du hast den Kanal für die Verabschiedungsnachricht auf {{channel}} gesetzt.",
+        "select.role.set": "Du hast die Rolle, welche markiert werden soll, für die Verabschiedungsnachricht auf {{role}} gesetzt.",
+        "modal.set_message.description": "Hier kannst du die Verabschiedungsnachricht festlegen. Du kannst die folgenden Platzhalter verwenden:\n\n- `{{user}}` – Erwähnt den Benutzer\n- `{{user.name}}` – Der Name des Benutzers\n- `{{user.id}}` - Die ID des Benutzers\n- `{{guild.name}}` - Der Name des Servers\n- `{{guild.memberCount}}` - Die Mitgliederzahl des Servers",
+        "modal.set_message.success": "Du hast die Verabschiedungsnachricht auf folgendes gesetzt:\n\n{{message}}",
+        "button.test.success": "Die Verabschiedungsnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
+        "button.reset.success": "Du hast **ALLE** Einstellungen des Verlassensystems zurückgesetzt.",
+        "select.mention.remove": "Du hast die Erwähnung für die Verabschiedungsnachricht entfernt."
     },
     "general": {
         "yes": "Ja",

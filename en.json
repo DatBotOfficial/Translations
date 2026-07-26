@@ -22,6 +22,23 @@
         "button.test.success": "The welcome message has been sent to {{channel}}.",
         "button.reset.success": "You have reset **ALL** settings of the Welcome System."
     },
+    "leave": {
+        "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
+        "panel.title.description": "You can manage the Leave System's settings right here.",
+        "panel.message.description": "Here you can change the leave message.",
+        "panel.test.description": "Test if the leave message is working properly.",
+        "panel.reset.description": "Here you can reset **ALL** settings of the Leave System.",
+        "panel.select.role.placeholder": "Set the role that should get mentioned",
+        "panel.select.channel.placeholder": "Set the channel for the message",
+        "toggle.no_channel": "You have to set the channel for the leave message first.",
+        "select.channel.set": "You have set the channel for the leave message to {{channel}}.",
+        "select.role.set": "You have set the role that should get mentioned in the leave message to {{role}}.",
+        "select.mention.remove": "You have removed the mention in the leave message.",
+        "modal.set_message.description": "You can set the leave message here. You can use the following placeholders:\n\n- `{{user}}` - Mentions the user\n- `{{user.name}}` - The name of the user\n- `{{user.id}}` - The ID of the user\n- `{{guild.name}}` - The name of the server\n- `{{guild.memberCount}}` - The member count of the server",
+        "modal.set_message.success": "You have set the leave message to:\n\n{{message}}",
+        "button.test.success": "The leave message has been sent to {{channel}}.",
+        "button.reset.success": "You have reset **ALL** settings of the Leave System."
+    },
     "general": {
         "yes": "Yes",
         "no": "No",
