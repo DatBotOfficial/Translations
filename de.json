@@ -20,7 +20,8 @@
         "button.test.success": "Die Willkommensnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
         "button.reset.success": "Du hast **ALLE** Einstellungen des Willkommenssystems zurückgesetzt.",
         "select.mention.remove": "Du hast die Erwähnung für die Willkommensnachricht entfernt.",
-        "select.user.set": "Du hast die Erwähnung für die Willkommensnachricht so geändert, das nun der Benutzer, der den Server betritt, markiert wird."
+        "select.user.set": "Du hast die Erwähnung für die Willkommensnachricht so geändert, das nun der Benutzer, der den Server betritt, markiert wird.",
+        "modal.set_message.title": "Willkommensnachricht festlegen"
     },
     "leave": {
         "panel.toggle.description": "Schaltet das System ein oder aus. Wenn der Button 'Aus' anzeigt, heißt das, dass das Verlassensystem deaktiviert ist. Ansonsten ist es aktiviert.",
@@ -37,7 +38,8 @@
         "modal.set_message.success": "Du hast die Verabschiedungsnachricht auf folgendes gesetzt:\n\n{{message}}",
         "button.test.success": "Die Verabschiedungsnachricht wurde erfolgreich getestet. Bitte überprüfe den Kanal {{channel}}.",
         "button.reset.success": "Du hast **ALLE** Einstellungen des Verlassensystems zurückgesetzt.",
-        "select.mention.remove": "Du hast die Erwähnung für die Verabschiedungsnachricht entfernt."
+        "select.mention.remove": "Du hast die Erwähnung für die Verabschiedungsnachricht entfernt.",
+        "modal.set_message.title": "Verabschiedungsnachricht festlegen"
     },
     "general": {
         "yes": "Ja",
