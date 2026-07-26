@@ -21,7 +21,9 @@
         "modal.set_message.success": "You have set the welcome message to:\n\n{{message}}",
         "modal.set_message.title": "Set Welcome Message",
         "button.test.success": "The welcome message has been sent to {{channel}}.",
-        "button.reset.success": "You have reset **ALL** settings of the Welcome System."
+        "button.reset.success": "You have reset **ALL** settings of the Welcome System.",
+        "test.channel_not_found": "The channel you set for the welcome message could not be found. Please set a new channel.",
+        "test.no_channel": "You have to set the channel for the welcome message first."
     },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
@@ -39,7 +41,9 @@
         "modal.set_message.success": "You have set the leave message to:\n\n{{message}}",
         "modal.set_message.title": "Set Leave Message",
         "button.test.success": "The leave message has been sent to {{channel}}.",
-        "button.reset.success": "You have reset **ALL** settings of the Leave System."
+        "button.reset.success": "You have reset **ALL** settings of the Leave System.",
+        "test.channel_not_found": "The channel you set for the leave message could not be found. Please set a new channel.",
+        "test.no_channel": "You have to set the channel for the leave message first."
     },
     "general": {
         "yes": "Yes",
