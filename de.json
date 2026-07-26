@@ -58,7 +58,8 @@
         "none": "Keine",
         "set": "Setzen",
         "not.your.button": "Du kannst diesen Button **nicht** benutzen, da er nicht für dich ist.",
-        "not.your.select": "Du kannst dieses Auswahlmenü **nicht** benutzen, da es nicht für dich ist."
+        "not.your.select": "Du kannst dieses Auswahlmenü **nicht** benutzen, da es nicht für dich ist.",
+        "not.a.channel": "Dies ist kein Kanal."
     },
     "permissions": {
         "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",

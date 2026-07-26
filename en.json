@@ -58,7 +58,8 @@
         "role": "Role",
         "none": "None",
         "not.your.button": "You cannot use this button, as it is **not** for you.",
-        "not.your.select": "You cannot use this select menu, as it is **not** for you."
+        "not.your.select": "You cannot use this select menu, as it is **not** for you.",
+        "not.a.channel": "The channel you provided is **not** a valid channel."
     },
     "permissions": {
         "channel.single": "You do not have the permission **{{permission}}** in {{channel}}.",
