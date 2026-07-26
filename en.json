@@ -65,6 +65,10 @@
         "channel.single": "You do not have the permission **{{permission}}** in {{channel}}.",
         "channel.multiple": "You do not have the permissions **{{permissions}}** in {{channel}}.",
         "single": "You do not have the permission **{{permission}}**.",
-        "multiple": "You do not have the permissions **{{permissions}}**."
+        "multiple": "You do not have the permissions **{{permissions}}**.",
+        "bot.single.channel": "I do not have the permission **{{permission}}** in {{channel}}.",
+        "bot.multiple.channel": "I do not have the permissions **{{permissions}}** in {{channel}}.",
+        "bot.single": "I do not have the permission **{{permission}}**.",
+        "bot.multiple": "I do not have the permissions **{{permissions}}**."
     }
 }
