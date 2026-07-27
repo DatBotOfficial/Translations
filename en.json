@@ -35,11 +35,14 @@
         "notify.list.error.no_notifications": "No Twitch notifications have been configured for this server.",
         "notify.list.title": "Twitch Notifications",
         "stream.live": "{{streamer}} is now live!",
-        "stream.live.for": "live for {{duration}}",
+        "stream.live.for": "Live for {{duration}}",
         "stream.updated.at": "Last updated",
         "stream.offline": "{{streamer}} is offline.",
         "stream.streamed.for": "Streamed for {{duration}}",
-        "stream.ended.at": "Ended at"
+        "stream.ended.at": "Ended at",
+        "stream.game": "Game",
+        "stream.viewers": "Viewers",
+        "stream.no.game": "None"
     },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
