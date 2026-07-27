@@ -25,6 +25,22 @@
         "test.channel_not_found": "The channel you set for the welcome message could not be found. Please set a new channel.",
         "test.no_channel": "You have to set the channel for the welcome message first."
     },
+    "twitch": {
+        "notify.add.error.channel_not_found": "The channel {{channel}} could not be found! Are you sure that's the correct streamer name?",
+        "notify.add.error.channel_already_added": "The channel {{channel}} has already been added in {{channel_mention}}.",
+        "notify.add.success": "The channel {{channel}} has been added successfully.",
+        "notify.remove.error.unknown": "An unknown error occurred. Please try again.",
+        "notify.remove.error.channel_not_found": "The channel {{channel}} was never added.",
+        "notify.remove.success": "The channel {{channel}} has been removed successfully.",
+        "notify.list.error.no_notifications": "No Twitch notifications have been configured for this server.",
+        "notify.list.title": "Twitch Notifications",
+        "stream.live": "{{streamer}} is now live!",
+        "stream.live.for": "live for {{duration}}",
+        "stream.updated.at": "Last updated",
+        "stream.offline": "{{streamer}} is offline.",
+        "stream.streamed.for": "Streamed for {{duration}}",
+        "stream.ended.at": "Ended at"
+    },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
         "panel.title.description": "You can manage the Leave System's settings right here.",

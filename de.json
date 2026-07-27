@@ -45,6 +45,22 @@
         "test.no_channel": "Du musst zuerst den Kanal für die Verabschiedungsnachricht setzen, bevor du das System testen kannst.",
         "test.channel_not_found": "Der Kanal für die Verabschiedungsnachricht wurde nicht gefunden. Bitte setze den Kanal erneut."
     },
+    "twitch": {
+        "notify.add.error.channel_not_found": "Der Kanal {{channel}} wurde nicht gefunden! Bist du dir sicher, dass das der richtig Name des Streamers ist?",
+        "notify.add.error.channel_already_added": "Der Kanal {{channel}} wurde bereits in {{channel_mention}} hinzugefügt.",
+        "notify.add.success": "Der Kanal {{channel}} wurde erfolgreich hinzugefügt.",
+        "notify.remove.error.unknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuche es erneut.",
+        "notify.remove.error.channel_not_found": "Der Kanal {{channel}} wurde nie hinzugefügt.",
+        "notify.remove.success": "Der Kanal {{channel}} wurde erfolgreich entfernt.",
+        "notify.list.error.no_notifications": "Es wurden keine Twitch-Benachrichtigungen in diesem Server hinzugefügt.",
+        "notify.list.title": "Twitch-Benachrichtigungen",
+        "stream.live": "{{streamer}} ist jetzt live!",
+        "stream.live.for": "live seit {{duration}}",
+        "stream.updated.at": "Zuletzt aktualisiert",
+        "stream.offline": "{{streamer}} ist offline.",
+        "stream.streamed.for": "Gestreamt für {{duration}}",
+        "stream.ended.at": "Geendet um"
+    },
     "general": {
         "yes": "Ja",
         "no": "Nein",
