@@ -51,7 +51,8 @@
         "info.title": "Title",
         "info.last_streamed": "Last streamed at",
         "info.section.channel": "Channel",
-        "info.section.live": "Livestream",
+        "info.section.live": "Live",
+        "info.section.offline": "Offline",
         "info.watch_button": "Watch live on Twitch",
         "info.view_channel_button": "View channel on Twitch"
     },
