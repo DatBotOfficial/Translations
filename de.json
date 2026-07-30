@@ -69,7 +69,11 @@
         "info.live.started_at": "Live gestartet am",
         "info.last_game": "Letztes Spiel",
         "info.title": "Titel",
-        "info.last_streamed": "Zuletzt gestreamt am"
+        "info.last_streamed": "Zuletzt gestreamt am",
+        "info.section.channel": "Kanal",
+        "info.section.live": "Livestream",
+        "info.watch_button": "Live auf Twitch ansehen",
+        "info.view_channel_button": "Kanal auf Twitch ansehen"
     },
     "general": {
         "yes": "Ja",
