@@ -42,7 +42,12 @@
         "stream.ended.at": "Ended at",
         "stream.game": "Game",
         "stream.viewers": "Viewers",
-        "stream.no.game": "None"
+        "stream.no.game": "None",
+        "info.created": "Created",
+        "info.followers": "Followers",
+        "info.description": "Description",
+        "info.live.started_at": "Live started at",
+        "info.last_game": "Last game"
     },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",

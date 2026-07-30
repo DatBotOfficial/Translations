@@ -62,7 +62,13 @@
         "stream.ended.at": "Geendet um",
         "stream.game": "Spiel",
         "stream.viewers": "Zuschauer",
-        "stream.no.game": "Keins"
+        "stream.no.game": "Keins",
+        "info.created": "Erstellt",
+        "info.followers": "Follower",
+        "info.description": "Beschreibung",
+        "info.live.started_at": "Live gestartet um",
+        "info.last_game": "Letztes Spiel",
+        "info.title": "Titel"
     },
     "general": {
         "yes": "Ja",
