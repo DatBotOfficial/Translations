@@ -66,9 +66,10 @@
         "info.created": "Erstellt",
         "info.followers": "Follower",
         "info.description": "Beschreibung",
-        "info.live.started_at": "Live gestartet um",
+        "info.live.started_at": "Live gestartet am",
         "info.last_game": "Letztes Spiel",
-        "info.title": "Titel"
+        "info.title": "Titel",
+        "info.last_streamed": "Zuletzt gestreamt am"
     },
     "general": {
         "yes": "Ja",

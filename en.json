@@ -48,7 +48,8 @@
         "info.description": "Description",
         "info.live.started_at": "Live started at",
         "info.last_game": "Last game",
-        "info.title": "Title"
+        "info.title": "Title",
+        "info.last_streamed": "Last streamed at"
     },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
