@@ -75,7 +75,9 @@
         "info.section.offline": "Offline",
         "info.watch_button": "Live auf Twitch ansehen",
         "info.view_channel_button": "Kanal auf Twitch ansehen",
-        "notify.reset.success": "Du hast **ALLE** Twitch-Benachrichtigungen für diesen Server zurückgesetzt."
+        "notify.reset.success": "Du hast **ALLE** Twitch-Benachrichtigungen für diesen Server zurückgesetzt.",
+        "info.last_vod": "Letzter VOD",
+        "info.team": "Twitch Team"
     },
     "general": {
         "yes": "Ja",
