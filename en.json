@@ -54,7 +54,8 @@
         "info.section.live": "Live",
         "info.section.offline": "Offline",
         "info.watch_button": "Watch live on Twitch",
-        "info.view_channel_button": "View channel on Twitch"
+        "info.view_channel_button": "View channel on Twitch",
+        "notify.reset.success": "You have reset **ALL** Twitch notifications for this server."
     },
     "leave": {
         "panel.toggle.description": "Disable or enable the system. If the button says 'Off', the system is disabled. Otherwise, it is enabled.",
