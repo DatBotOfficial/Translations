@@ -120,7 +120,7 @@
         "not.a.channel": "Dies ist kein Kanal.",
         "confirm": "Bestätigen",
         "cancel": "Abbrechen",
-        "component.expired": "Diese Interaktion ist abgelaufen. Bitte versuche es erneut."
+        "component.expired": "Diese Interaktion ist abgelaufen."
     },
     "permissions": {
         "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",
