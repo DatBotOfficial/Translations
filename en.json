@@ -119,7 +119,8 @@
         "not.your.select": "You cannot use this select menu, as it is **not** for you.",
         "not.a.channel": "The channel you provided is **not** a valid channel.",
         "confirm": "Confirm",
-        "cancel": "Cancel"
+        "cancel": "Cancel",
+        "component.expired": "This component has expired. Please try again."
     },
     "permissions": {
         "channel.single": "You do not have the permission **{{permission}}** in {{channel}}.",

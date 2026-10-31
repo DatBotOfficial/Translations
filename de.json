@@ -119,7 +119,8 @@
         "not.your.select": "Du kannst dieses Auswahlmenü **nicht** benutzen, da es nicht für dich ist.",
         "not.a.channel": "Dies ist kein Kanal.",
         "confirm": "Bestätigen",
-        "cancel": "Abbrechen"
+        "cancel": "Abbrechen",
+        "component.expired": "Diese Interaktion ist abgelaufen. Bitte versuche es erneut."
     },
     "permissions": {
         "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",
