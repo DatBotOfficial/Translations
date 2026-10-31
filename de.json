@@ -128,7 +128,9 @@
         "cancel": "Abbrechen",
         "component.expired": "Diese Interaktion ist abgelaufen.",
         "date.invalid": "Das angegebene Datum ist **ungültig**. Bitte gib ein gültiges Datum an. (z.B. 2023-01-01 12:00:00)",
-        "time.invalid": "Die angegebene Zeit ist **ungültig**. Bitte gib eine gültige Zeit an. (z.B. 10m, 1h, 2d, 3w, 4mo, 5y)"
+        "time.invalid": "Die angegebene Zeit ist **ungültig**. Bitte gib eine gültige Zeit an. (z.B. 10m, 1h, 2d, 3w, 4mo, 5y)",
+        "color.invalid": "Die angegebene Farbe ist **ungültig**. Bitte gib einen gültigen Hexcode an. (z.B. #FF0000)",
+        "url.invalid": "Die angegebene URL ist **ungültig**. Bitte gib eine gültige URL an. (z.B. https://example.com)"
     },
     "permissions": {
         "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",

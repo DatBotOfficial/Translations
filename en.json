@@ -128,7 +128,9 @@
         "cancel": "Cancel",
         "component.expired": "This component has expired.",
         "date.invalid": "The specified date is **invalid**. Please provide a valid date. (e.g. 2023-01-01 12:00:00)",
-        "time.invalid": "The specified time is **invalid**. Please provide a valid time. (e.g. 10m, 1h, 2d, 3w, 4mo, 5y)"
+        "time.invalid": "The specified time is **invalid**. Please provide a valid time. (e.g. 10m, 1h, 2d, 3w, 4mo, 5y)",
+        "general.color.invalid": "The specified color is **invalid**. Please provide a valid hex code. (e.g. #FF0000)",
+        "general.url.invalid": "The specified URL is **invalid**. Please provide a valid URL. (e.g. https://example.com)"
     },
     "permissions": {
         "channel.single": "You do not have the permission **{{permission}}** in {{channel}}.",
