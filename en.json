@@ -81,9 +81,13 @@
     },
     "embeds": {
         "title": "Title",
+        "title.url": "Title URL",
         "description": "Description",
         "author": "Author",
         "footer": "Footer",
+        "footer.icon": "Footer Icon",
+        "author.url": "Author URL",
+        "author.icon": "Author Icon",
         "color": "Color",
         "timestamp": "Timestamp",
         "image": "Image",
