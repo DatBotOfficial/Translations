@@ -126,7 +126,9 @@
         "not.a.channel": "Dies ist kein Kanal.",
         "confirm": "Bestätigen",
         "cancel": "Abbrechen",
-        "component.expired": "Diese Interaktion ist abgelaufen."
+        "component.expired": "Diese Interaktion ist abgelaufen.",
+        "date.invalid": "Das angegebene Datum ist **ungültig**. Bitte gib ein gültiges Datum an. (z.B. 2023-01-01 12:00:00)",
+        "time.invalid": "Die angegebene Zeit ist **ungültig**. Bitte gib eine gültige Zeit an. (z.B. 10m, 1h, 2d, 3w, 4mo, 5y)"
     },
     "permissions": {
         "channel.single": "Dir fehlt die Berechtigung **{{permission}}** in {{channel}}.",
