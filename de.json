@@ -84,6 +84,8 @@
         "title.url": "Titel URL",
         "description": "Beschreibung",
         "author": "Autor",
+        "placeholder.image": "Du kannst die folgenden Platzhalter verwenden:\n\n- `{{guild.avatar}}` - Nutzt automatisch das Server-Icon\n- `{{guild.banner}}` - Nutzt automatisch das Server-Banner, sofern vorhanden",
+        "info.timestamp": "Hier kannst du einen Zeitstempel für das Embed festlegen. Folgende Formate werden akzeptiert:\n\n- `now` - Verwendet die aktuelle Zeit\n- `YYYY-MM-DD HH:mm:ss` - Verwendet eine bestimmte Zeit und einen bestimmten Tag (z.B., `2023-01-01 12:00:00`)\n- `YYYY-MM-DD` - Verwendet einen bestimmten Tag (z.B., `2023-01-01`)\n\nAlle Zeiten werden in UTC interpretiert.",
         "author.url": "Autor URL",
         "author.icon": "Autor Icon",
         "footer": "Fußzeile",

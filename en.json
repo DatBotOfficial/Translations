@@ -86,6 +86,8 @@
         "author": "Author",
         "footer": "Footer",
         "footer.icon": "Footer Icon",
+        "info.image.placeholders": "You can use the following placeholders:\n\n- `{{guild.avatar}}` - Uses the server icon\n- `{{guild.banner}}` - Uses the server banner if available",
+        "info.timestamp": "Here you can set a timestamp for the embed. We accept the following formats:\n\n- `now` - Uses the current time\n- `YYYY-MM-DD HH:mm:ss` - Uses a specific date and time (e.g., `2023-01-01 12:00:00`)\n- `YYYY-MM-DD` - Uses a specific date (e.g., `2023-01-01`)\n\nAll timestamps are in UTC.",
         "author.url": "Author URL",
         "author.icon": "Author Icon",
         "color": "Color",
