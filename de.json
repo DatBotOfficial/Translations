@@ -79,6 +79,25 @@
         "info.last_vod": "Letzter VOD",
         "info.team": "Twitch Team"
     },
+    "embeds": {
+        "title": "Titel",
+        "description": "Beschreibung",
+        "author": "Autor",
+        "footer": "Fußzeile",
+        "color": "Farbe",
+        "timestamp": "Zeitstempel",
+        "image": "Bild",
+        "thumbnail": "Thumbnail",
+        "fields": "Felder",
+        "composer.embed.title": "Embed Composer",
+        "composer.embed.unnamed": "Unbenanntes Embed",
+        "composer.select.placeholder.edit": "Bearbeite dein Embed",
+        "composer.select.placeholder.delete": "Lösche etwas aus deinem Embed",
+        "composer.select.placeholder.send": "Sende dein Embed",
+        "composer.button.view": "Vorschau",
+        "composer.button.save": "Speichern",
+        "composer.button.send": "Name"
+    },
     "general": {
         "yes": "Ja",
         "no": "Nein",

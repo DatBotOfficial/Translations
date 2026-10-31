@@ -79,6 +79,25 @@
         "test.channel_not_found": "The channel you set for the leave message could not be found. Please set a new channel.",
         "test.no_channel": "You have to set the channel for the leave message first."
     },
+    "embeds": {
+        "title": "Title",
+        "description": "Description",
+        "author": "Author",
+        "footer": "Footer",
+        "color": "Color",
+        "timestamp": "Timestamp",
+        "image": "Image",
+        "thumbnail": "Thumbnail",
+        "fields": "Fields",
+        "composer.embed.title": "Embed Composer",
+        "composer.embed.unnamed": "Unnamed Embed",
+        "composer.select.placeholder.edit": "Edit your embed",
+        "composer.select.placeholder.delete": "Delete something from your embed",
+        "composer.select.placeholder.send": "Send your embed",
+        "composer.button.view": "View",
+        "composer.button.save": "Save",
+        "composer.button.send": "Name"
+    },
     "general": {
         "yes": "Yes",
         "no": "No",
