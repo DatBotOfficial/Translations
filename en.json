@@ -96,7 +96,7 @@
         "composer.select.placeholder.send": "Send your embed",
         "composer.button.view": "View",
         "composer.button.save": "Save",
-        "composer.button.send": "Name"
+        "composer.button.name": "Name"
     },
     "general": {
         "yes": "Yes",
