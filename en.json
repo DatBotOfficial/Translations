@@ -89,7 +89,7 @@
         "image": "Image",
         "thumbnail": "Thumbnail",
         "fields": "Fields",
-        "composer.embed.title": "Embed Composer",
+        "composer.title": "Embed Composer",
         "composer.embed.unnamed": "Unnamed Embed",
         "composer.select.placeholder.edit": "Edit your embed",
         "composer.select.placeholder.delete": "Delete something from your embed",
