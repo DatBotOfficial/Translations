@@ -119,7 +119,8 @@
         "message.delete.success": "Das Embed mit der ID `{{id}}` wurde erfolgreich gelöscht.",
         "message.delete.success.name": "Das Embed mit dem Namen `{{name}}` und der ID `{{id}}` wurde erfolgreich gelöscht.",
         "message.load.success": "Das Embed mit der ID `{{id}}` wurde erfolgreich geladen.",
-        "message.load.success.name": "Das Embed mit dem Namen `{{name}}` und der ID `{{id}}` wurde erfolgreich geladen."
+        "message.load.success.name": "Das Embed mit dem Namen `{{name}}` und der ID `{{id}}` wurde erfolgreich geladen.",
+        "error.invalid": "Bitte gib ein gültiges Embed an."
     },
     "general": {
         "yes": "Ja",
