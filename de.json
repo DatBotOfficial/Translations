@@ -111,7 +111,9 @@
         "message.send.success": "Dein Embed wurde erfolgreich in den Kanal {{channel}} gesendet.",
         "composer.error.fields.limit": "Du kannst maximal 25 Felder in einem Embed haben.",
         "message.save.success": "Das Embed wurde erfolgreich mit der ID `{{id}}` gespeichert. Du kannst diese ID später verwenden, um das Embed zu laden oder mit anderen zu teilen.",
-        "message.save.success.name": "Das Embed wurde erfolgreich mit dem Namen `{{name}}` und der ID `{{id}}` gespeichert. Du kannst die ID z.B. verwenden, um es mit anderen zu teilen oder später zu laden. Der Name dient nur deiner eigenen Übersicht."
+        "message.save.success.name": "Das Embed wurde erfolgreich mit dem Namen `{{name}}` und der ID `{{id}}` gespeichert. Du kannst die ID z.B. verwenden, um es mit anderen zu teilen oder später zu laden. Der Name dient nur deiner eigenen Übersicht.",
+        "error.not.yours": "Dieses Embed gehört **nicht** dir. Du kannst es nicht bearbeiten oder löschen.",
+        "error.not.found": "Es wurde kein Embed mit der ID `{{id}}` gefunden."
     },
     "general": {
         "yes": "Ja",
