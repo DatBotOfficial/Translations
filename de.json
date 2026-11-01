@@ -104,7 +104,8 @@
         "composer.button.view": "Vorschau",
         "composer.button.save": "Speichern",
         "composer.button.name": "Name",
-        "composer.button.send.webook": "Mit Webhook senden"
+        "composer.button.send.webook": "Mit Webhook senden",
+        "message.send.success": "Dein Embed wurde erfolgreich in den Kanal {{channel}} gesendet."
     },
     "general": {
         "yes": "Ja",
