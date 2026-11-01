@@ -120,7 +120,8 @@
         "message.load.success.name": "The embed with the name `{{name}}` and the id `{{id}}` has been loaded successfully.",
         "error.not.yours": "This embed does **not** belong to you. You cannot edit or delete it.",
         "error.not.found": "No embed with the ID `{{id}}` was found.",
-        "error.invalid": "Please provide a valid embed."
+        "error.invalid": "Please provide a valid embed.",
+        "error.invalid.discord": "Invalid embed."
     },
     "general": {
         "yes": "Yes",
