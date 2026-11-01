@@ -84,6 +84,7 @@
         "title.url": "Titel URL",
         "description": "Beschreibung",
         "author": "Autor",
+        "info.color": "Hier kannst du eine Farbe für das Embed festlegen. Wir akzeptieren die folgenden Formate:\n\n- `#RRGGBB` - Hexadezimaler Farbcode (z. B. `#FF0000`)\n- `0xRRGGBB` - Hexadezimaler Farbcode mit Präfix (z. B. `0xFF0000`)\n- `RRGGBB` - Hexadezimaler Farbcode ohne Präfix (z. B. `FF0000`)\n- `rgb(R, G, B)` - RGB-Farbformat (z. B. `rgb(255, 0, 0)`)\n- `hsl(H, S%, L%)` - HSL-Farbformat (z. B. `hsl(0, 100%, 50%)`)\n- Ganzzahl - Dezimale Darstellung der Farbe (z. B. `16711680`)",
         "info.image.placeholders": "Du kannst die folgenden Platzhalter verwenden:\n\n- `{{guild.icon}}` - Nutzt automatisch das Server-Icon\n- `{{guild.banner}}` - Nutzt automatisch das Server-Banner, sofern vorhanden",
         "info.timestamp": "Hier kannst du einen Zeitstempel für das Embed festlegen. Folgende Formate werden akzeptiert:\n\n- `now` - Verwendet die aktuelle Zeit\n- `YYYY-MM-DD HH:mm:ss` - Verwendet eine bestimmte Zeit und einen bestimmten Tag (z.B., `2023-01-01 12:00:00`)\n- `YYYY-MM-DD` - Verwendet einen bestimmten Tag (z.B., `2023-01-01`)\n\nAlle Zeiten werden in UTC interpretiert.",
         "author.url": "Autor URL",
@@ -129,7 +130,7 @@
         "component.expired": "Diese Interaktion ist abgelaufen.",
         "date.invalid": "Das angegebene Datum ist **ungültig**. Bitte gib ein gültiges Datum an. (z.B. 2023-01-01 12:00:00)",
         "time.invalid": "Die angegebene Zeit ist **ungültig**. Bitte gib eine gültige Zeit an. (z.B. 10m, 1h, 2d, 3w, 4mo, 5y)",
-        "color.invalid": "Die angegebene Farbe ist **ungültig**. Bitte gib einen gültigen Hexcode an. (z.B. #FF0000)",
+        "color.invalid": "Die angegebene Farbe ist **ungültig**. Bitte gib eine gültige Farbe an. (z.B. #FF0000, 0xFF0000, 16711680, rgb(255,0,0), hsl(0,100%,50%), 44240)",
         "url.invalid": "Die angegebene URL ist **ungültig**. Bitte gib eine gültige URL an. (z.B. https://example.com)"
     },
     "permissions": {

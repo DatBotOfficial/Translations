@@ -86,6 +86,7 @@
         "author": "Author",
         "footer": "Footer",
         "footer.icon": "Footer Icon",
+        "info.color": "Here you can set a color for the embed. We accept the following formats:\n\n- `#RRGGBB` - Hexadecimal color code (e.g., `#FF0000`)\n- `0xRRGGBB` - Hexadecimal color code with prefix (e.g., `0xFF0000`)\n- `RRGGBB` - Hexadecimal color code without prefix (e.g., `FF0000`)\n- `rgb(R, G, B)` - RGB color format (e.g., `rgb(255, 0, 0)`)\n- `hsl(H, S%, L%)` - HSL color format (e.g., `hsl(0, 100%, 50%)`)\n- Integer value - Decimal representation of the color (e.g., `16711680`)",
         "info.image.placeholders": "You can use the following placeholders:\n\n- `{{guild.icon}}` - Uses the server icon\n- `{{guild.banner}}` - Uses the server banner if available",
         "info.timestamp": "Here you can set a timestamp for the embed. We accept the following formats:\n\n- `now` - Uses the current time\n- `YYYY-MM-DD HH:mm:ss` - Uses a specific date and time (e.g., `2023-01-01 12:00:00`)\n- `YYYY-MM-DD` - Uses a specific date (e.g., `2023-01-01`)\n\nAll timestamps are in UTC.",
         "author.url": "Author URL",
@@ -129,7 +130,7 @@
         "component.expired": "This component has expired.",
         "date.invalid": "The specified date is **invalid**. Please provide a valid date. (e.g. 2023-01-01 12:00:00)",
         "time.invalid": "The specified time is **invalid**. Please provide a valid time. (e.g. 10m, 1h, 2d, 3w, 4mo, 5y)",
-        "general.color.invalid": "The specified color is **invalid**. Please provide a valid hex code. (e.g. #FF0000)",
+        "general.color.invalid": "The specified color is **invalid**. Please provide a valid color. (e.g. #FF0000, 0xFF0000, 16711680, rgb(255,0,0), hsl(0,100%,50%), 44240)",
         "general.url.invalid": "The specified URL is **invalid**. Please provide a valid URL. (e.g. https://example.com)"
     },
     "permissions": {
