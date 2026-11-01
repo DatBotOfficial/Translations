@@ -111,7 +111,9 @@
         "message.send.success": "The message has been sent successfully to the channel {{channel}}.",
         "composer.error.fields.limit": "You can only have a maximum of 25 fields in an embed.",
         "message.save.success": "The embed has been saved successfully with the id `{{id}}`. You can use this id to load the embed later or share it with others.",
-        "message.save.success.name": "The embed has been saved successfully with the name `{{name}}`` and the id `{{id}}`. You can use the id to e.g. share it with others or load it later. The name is only for your own reference."
+        "message.save.success.name": "The embed has been saved successfully with the name `{{name}}`` and the id `{{id}}`. You can use the id to e.g. share it with others or load it later. The name is only for your own reference.",
+        "error.not.yours": "This embed does **not** belong to you. You cannot edit or delete it.",
+        "error.not.found": "No embed with the ID `{{id}}` was found."
     },
     "general": {
         "yes": "Yes",
