@@ -105,7 +105,8 @@
         "composer.button.save": "Speichern",
         "composer.button.name": "Name",
         "composer.button.send.webook": "Mit Webhook senden",
-        "message.send.success": "Dein Embed wurde erfolgreich in den Kanal {{channel}} gesendet."
+        "message.send.success": "Dein Embed wurde erfolgreich in den Kanal {{channel}} gesendet.",
+        "composer.error.fields.limit": "Du kannst maximal 25 Felder in einem Embed haben."
     },
     "general": {
         "yes": "Ja",

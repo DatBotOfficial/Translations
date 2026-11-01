@@ -105,7 +105,8 @@
         "composer.button.save": "Save",
         "composer.button.name": "Name",
         "composer.button.send.webhook": "Send with Webhook",
-        "message.send.success": "The message has been sent successfully to the channel {{channel}}."
+        "message.send.success": "The message has been sent successfully to the channel {{channel}}.",
+        "composer.error.fields.limit": "You can only have a maximum of 25 fields in an embed."
     },
     "general": {
         "yes": "Yes",
