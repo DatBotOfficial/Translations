@@ -122,7 +122,9 @@
         "message.load.success.name": "Das Embed mit dem Namen `{{name}}` und der ID `{{id}}` wurde erfolgreich geladen.",
         "error.invalid": "Bitte gib ein gültiges Embed an.",
         "error.invalid.discord": "Ungültiges embed.",
-        "message.send.webhook.success": "Die Nachricht wurde erfolgreich über den Webhook gesendet."
+        "message.send.webhook.success": "Die Nachricht wurde erfolgreich über den Webhook gesendet.",
+        "deleted.named": "Du hast das Embed mit dem Namen `{{name}}` und der ID `{{id}}` erfolgreich gelöscht.",
+        "deleted.unnamed": "Du hast das Embed mit der ID `{{id}}` erfolgreich gelöscht."
     },
     "general": {
         "yes": "Ja",
