@@ -126,6 +126,8 @@
         "deleted.named": "Du hast das Embed mit dem Namen `{{name}}` und der ID `{{id}}` erfolgreich gelöscht.",
         "deleted.unnamed": "Du hast das Embed mit der ID `{{id}}` erfolgreich gelöscht.",
         "no.embeds": "Es wurden keine Embeds gefunden.",
+        "import.error.type": "Die angegebene Datei ist keine gültige JSON-Datei. Bitte gib eine gültige JSON-Datei an, die ein von Dat Bot generiertes Discord-Embed darstellt.",
+        "import.error.size": "Das Embed ist zu groß. Bitte stelle sicher, dass es nicht größer als 1MB ist.",
         "import.error": "Das Embed konnte nicht importiert werden. Bitte stelle sicher, dass das angegebene JSON gültig ist und ein von Dat Bot generiertes Discord-Embed darstellt."
     },
     "general": {
