@@ -125,7 +125,8 @@
         "message.send.webhook.success": "Die Nachricht wurde erfolgreich über den Webhook gesendet.",
         "deleted.named": "Du hast das Embed mit dem Namen `{{name}}` und der ID `{{id}}` erfolgreich gelöscht.",
         "deleted.unnamed": "Du hast das Embed mit der ID `{{id}}` erfolgreich gelöscht.",
-        "no.embeds": "Es wurden keine Embeds gefunden."
+        "no.embeds": "Es wurden keine Embeds gefunden.",
+        "import.error": "Das Embed konnte nicht importiert werden. Bitte stelle sicher, dass das angegebene JSON gültig ist und ein von Dat Bot generiertes Discord-Embed darstellt."
     },
     "general": {
         "yes": "Ja",
