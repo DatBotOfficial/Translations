@@ -124,7 +124,8 @@
         "error.invalid": "Please provide a valid embed.",
         "error.invalid.discord": "Invalid embed.",
         "deleted.named": "You have successfully deleted the embed with the name `{{name}}` and the ID `{{id}}`.",
-        "deleted.unnamed": "You have successfully deleted the embed with the ID `{{id}}`."
+        "deleted.unnamed": "You have successfully deleted the embed with the ID `{{id}}`.",
+        "no.embeds": "No embeds were found."
     },
     "general": {
         "yes": "Yes",

@@ -124,7 +124,8 @@
         "error.invalid.discord": "Ungültiges embed.",
         "message.send.webhook.success": "Die Nachricht wurde erfolgreich über den Webhook gesendet.",
         "deleted.named": "Du hast das Embed mit dem Namen `{{name}}` und der ID `{{id}}` erfolgreich gelöscht.",
-        "deleted.unnamed": "Du hast das Embed mit der ID `{{id}}` erfolgreich gelöscht."
+        "deleted.unnamed": "Du hast das Embed mit der ID `{{id}}` erfolgreich gelöscht.",
+        "no.embeds": "Es wurden keine Embeds gefunden."
     },
     "general": {
         "yes": "Ja",
