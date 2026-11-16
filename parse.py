@@ -1,83 +1,125 @@
-#!/usr/bin/env python3
-"""
-Compare the key structure of two JSON files (e.g. locale files) and report
-which keys exist in one file but not the other.
-
-Usage:
-    python compare_json_keys.py file_a.json file_b.json
-"""
 
 import json
 import sys
+from pathlib import Path
+from difflib import SequenceMatcher
 
 
-def flatten_keys(data, prefix=""):
-    """Recursively collect all dotted key paths from a nested dict."""
+def load_keys(path: str) -> set[str]:
+    with open(path, "r", encoding="utf-8-sig") as file:
+        data = json.load(file)
+
     keys = set()
 
-    if isinstance(data, dict):
-        for key, value in data.items():
-            path = f"{prefix}.{key}" if prefix else key
-            if isinstance(value, dict):
-                keys |= flatten_keys(value, path)
-            else:
-                keys.add(path)
-    else:
-        # Non-dict at top level, just add the prefix itself
-        keys.add(prefix)
+    def collect(obj, prefix=""):
+        if isinstance(obj, dict):
+            for key, value in obj.items():
+                full_key = f"{prefix}.{key}" if prefix else key
+                collect(value, full_key)
+        else:
+            keys.add(prefix)
 
+    collect(data)
     return keys
 
 
-def load_json(path):
-    try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print(f"Error: file not found: {path}")
-        sys.exit(1)
-    except json.JSONDecodeError as e:
-        print(f"Error: invalid JSON in {path}: {e}")
-        sys.exit(1)
+def find_similar_keys(
+    missing: set[str],
+    candidates: set[str],
+    threshold: float = 0.75
+) -> dict[str, tuple[str, float]]:
+    matches = {}
+
+    for key in missing:
+        best_match = None
+        best_score = threshold
+
+        for candidate in candidates:
+            score = SequenceMatcher(
+                None, key, candidate
+            ).ratio()
+
+            if score > best_score:
+                best_match = candidate
+                best_score = score
+
+        if best_match:
+            matches[key] = (best_match, best_score)
+
+    return matches
+
+
+def print_missing(
+    filename: str,
+    source: str,
+    missing: set[str],
+    suggestions: dict[str, tuple[str, float]]
+):
+    if not missing:
+        print(f"✅ No keys missing in {filename}")
+        return
+
+    print(
+        f"\n❌ Keys missing in {filename} "
+        f"(present in {source}): {len(missing)}"
+    )
+
+    for key in sorted(missing):
+        print(f"  - {key}")
+
+        if key in suggestions:
+            match, score = suggestions[key]
+            print(
+                f"    💡 Did you mean: {match} "
+                f"({score:.0%} similarity)?"
+            )
 
 
 def main():
     if len(sys.argv) != 3:
-        print(f"Usage: python {sys.argv[0]} <file_a.json> <file_b.json>")
+        print("Usage: python parse.py <file_a.json> <file_b.json>")
         sys.exit(1)
 
-    file_a, file_b = sys.argv[1], sys.argv[2]
+    file_a, file_b = sys.argv[1:3]
 
-    data_a = load_json(file_a)
-    data_b = load_json(file_b)
+    try:
+        keys_a = load_keys(file_a)
+        keys_b = load_keys(file_b)
+    except (OSError, json.JSONDecodeError) as error:
+        print(f"❌ Error reading JSON: {error}")
+        sys.exit(1)
 
-    keys_a = flatten_keys(data_a)
-    keys_b = flatten_keys(data_b)
+    name_a = Path(file_a).name
+    name_b = Path(file_b).name
 
-    only_in_a = sorted(keys_a - keys_b)
-    only_in_b = sorted(keys_b - keys_a)
+    print(f"Comparing:\n  A = {name_a}\n  B = {name_b}")
 
-    print(f"Comparing:\n  A = {file_a}\n  B = {file_b}\n")
+    missing_in_b = keys_a - keys_b
+    missing_in_a = keys_b - keys_a
 
-    if not only_in_a and not only_in_b:
-        print("✅ Both files have identical key structures.")
-        return
+    suggestions_b = find_similar_keys(
+        missing_in_b, missing_in_a
+    )
+    suggestions_a = find_similar_keys(
+        missing_in_a, missing_in_b
+    )
 
-    if only_in_a:
-        print(f"❌ Keys missing in {file_b} (present in {file_a}): {len(only_in_a)}")
-        for key in only_in_a:
-            print(f"  - {key}")
-        print()
+    print_missing(
+        name_b, name_a, missing_in_b, suggestions_b
+    )
+    print_missing(
+        name_a, name_b, missing_in_a, suggestions_a
+    )
 
-    if only_in_b:
-        print(f"❌ Keys missing in {file_a} (present in {file_b}): {len(only_in_b)}")
-        for key in only_in_b:
-            print(f"  - {key}")
-        print()
+    print(
+        f"\nTotal keys: {name_a} = {len(keys_a)}, "
+        f"{name_b} = {len(keys_b)}"
+    )
 
-    total_a = len(keys_a)
-    total_b = len(keys_b)
-    print(f"Total keys: {file_a} = {total_a}, {file_b} = {total_b}")
+    if missing_in_a or missing_in_b:
+        sys.exit(1)
+
+    print("\n✅ All translation keys match!")
 
 
 if __name__ == "__main__":
