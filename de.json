@@ -105,6 +105,8 @@
         "composer.select.placeholder.delete": "Lösche etwas aus deinem Embed",
         "composer.select.placeholder.send": "Sende dein Embed",
         "composer.button.view": "Vorschau",
+        "guild.no.banner": "Dieser Server hat kein Banner.",
+        "guild.no.icon": "Dieser Server hat kein Icon.",
         "composer.button.save": "Speichern",
         "composer.button.name": "Name",
         "composer.button.send.webhook": "Mit Webhook senden",

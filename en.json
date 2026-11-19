@@ -164,6 +164,8 @@
         "error.occurred": "An error occurred. Please try again.",
         "user": "User",
         "set": "Set",
+        "guild.no.banner": "This server does not have a banner.",
+        "guild.no.icon": "This server does not have an icon.",
         "role": "Role",
         "none": "None",
         "not.your.button": "You cannot use this button, as it is **not** for you.",
