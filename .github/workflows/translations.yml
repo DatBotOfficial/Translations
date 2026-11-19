@@ -4,11 +4,13 @@ name: Validate Translations
 on:
   push:
     paths:
-      - "translations/**"
+      - "**/*.json"
+      - "parse.py"
       - ".github/workflows/translations.yml"
   pull_request:
     paths:
-      - "translations/**"
+      - "**/*.json"
+      - "parse.py"
       - ".github/workflows/translations.yml"
   workflow_dispatch:
 
@@ -19,10 +21,6 @@ jobs:
   validate:
     name: Validate Translation Keys
     runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: translations
 
     steps:
       - name: Checkout repository
@@ -37,6 +35,7 @@ jobs:
         shell: bash
         run: |
           EXIT_CODE=0
+          CHECKED=0
           shopt -s nullglob
 
           if [[ ! -f "en.json" ]]; then
@@ -49,15 +48,24 @@ jobs:
               continue
             fi
 
+            CHECKED=$((CHECKED + 1))
+
             echo "::group::Comparing en.json with $file"
 
             if ! python parse.py en.json "$file"; then
-              echo "::error file=translations/$file::Translation validation failed for $file"
+              echo "::error file=$file::Translation validation failed for $file"
               EXIT_CODE=1
             fi
 
             echo "::endgroup::"
           done
+
+          if [[ "$CHECKED" -eq 0 ]]; then
+            echo "::error::No translation files found"
+            exit 1
+          fi
+
+          echo "Checked $CHECKED translation file(s)."
 
           if [[ "$EXIT_CODE" -ne 0 ]]; then
             echo "❌ Translation validation failed."
