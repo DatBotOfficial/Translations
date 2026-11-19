@@ -1,0 +1,68 @@
+
+name: Validate Translations
+
+on:
+  push:
+    paths:
+      - "translations/**"
+      - ".github/workflows/translations.yml"
+  pull_request:
+    paths:
+      - "translations/**"
+      - ".github/workflows/translations.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate Translation Keys
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: translations
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Validate translations
+        shell: bash
+        run: |
+          EXIT_CODE=0
+          shopt -s nullglob
+
+          if [[ ! -f "en.json" ]]; then
+            echo "::error::Reference file en.json not found"
+            exit 1
+          fi
+
+          for file in *.json; do
+            if [[ "$file" == "en.json" ]]; then
+              continue
+            fi
+
+            echo "::group::Comparing en.json with $file"
+
+            if ! python parse.py en.json "$file"; then
+              echo "::error file=translations/$file::Translation validation failed for $file"
+              EXIT_CODE=1
+            fi
+
+            echo "::endgroup::"
+          done
+
+          if [[ "$EXIT_CODE" -ne 0 ]]; then
+            echo "❌ Translation validation failed."
+          else
+            echo "✅ All translation files are valid."
+          fi
+
+          exit "$EXIT_CODE"
