@@ -440,7 +440,7 @@
         "log.created": "{{user}} hat {{channel}} (`{{name}}`) erstellt.",
         "log.creator_deleted": "Der Creator-Channel `{{name}}` wurde gelöscht und aus der Einrichtung entfernt.",
         "log.deleted": "Der Temp-Channel `{{name}}` von {{user}} wurde gelöscht: {{reason}}",
-        "log.join_denied": "{{user}} wurde aus {{channel}} entfernt, weil er gesperrt ist.",
+        "log.join_denied": "{{user}} wurde aus {{channel}} entfernt (gesperrt).",
         "log.kicked": "{{user}} hat {{targets}} aus {{channel}} gekickt.",
         "log.limit_changed": "{{user}} hat das Nutzerlimit von {{channel}} auf {{limit}} gesetzt.",
         "log.moderators_changed": "{{user}} hat die Moderatoren von {{channel}} geändert: {{users}} · Rollen: {{roles}}",
@@ -614,6 +614,21 @@
         "test.result_errors": "❌ Es gibt Probleme, die behoben werden müssen.",
         "test.result_warnings": "⚠️ Alles funktioniert, aber es gibt Warnungen.",
         "test.result_ok": "✅ Alles funktioniert.",
-        "test.roles_missing": "{{count}} eingestellte Rollen existieren nicht mehr."
+        "test.roles_missing": "{{count}} eingestellte Rollen existieren nicht mehr.",
+        "hub.interface": "Eine öffentliche Nachricht, über die Mitglieder ihren Channel verwalten.",
+        "page.interface.title": "Interface",
+        "page.interface.description": "Sende eine Nachricht mit Buttons, über die Mitglieder ihren eigenen Temp-Channel verwalten.",
+        "interface.current": "**Interface-Channel:** {{channel}}",
+        "interface.select.channel": "Interface in einen Channel senden",
+        "interface.button.resend": "Erneut senden",
+        "interface.title": "Voice-Interface",
+        "interface.description": "Verwalte deinen Temp-Channel mit den Buttons unten. Sie wirken auf den Channel, in dem du bist, oder den, der dir gehört.",
+        "interface.section.channel": "Channel",
+        "interface.section.privacy": "Privatsphäre",
+        "interface.section.members": "Mitglieder",
+        "interface.section.more": "Mehr",
+        "interface.button.lock": "Sperren / Entsperren",
+        "interface.button.hide": "Verstecken / Anzeigen",
+        "interface.footer": "Betritt einen Creator-Channel, um deinen eigenen Temp-Channel zu bekommen."
     }
 }

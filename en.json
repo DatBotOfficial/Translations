@@ -614,6 +614,21 @@
         "test.result_errors": "❌ There are problems that need fixing.",
         "test.result_warnings": "⚠️ Everything works, but there are warnings.",
         "test.result_ok": "✅ Everything works.",
-        "test.roles_missing": "{{count}} configured roles don't exist anymore."
+        "test.roles_missing": "{{count}} configured roles don't exist anymore.",
+        "hub.interface": "A public message members manage their own channel from.",
+        "page.interface.title": "Interface",
+        "page.interface.description": "Send a message with buttons members can use to manage their own temp channel.",
+        "interface.current": "**Interface channel:** {{channel}}",
+        "interface.select.channel": "Send the interface to a channel",
+        "interface.button.resend": "Send again",
+        "interface.title": "Voice Interface",
+        "interface.description": "Manage your temp channel with the buttons below. They act on the channel you're in, or the one you own.",
+        "interface.section.channel": "Channel",
+        "interface.section.privacy": "Privacy",
+        "interface.section.members": "Members",
+        "interface.section.more": "More",
+        "interface.button.lock": "Lock / Unlock",
+        "interface.button.hide": "Hide / Show",
+        "interface.footer": "Join a creator channel to get your own temp channel."
     }
 }
